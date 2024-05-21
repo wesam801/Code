@@ -450,6 +450,7 @@ a{
     justify-content: center;
     margin: 0 0 30px 0;
     /* margin-right: -50px; */
+    position: relative;
 }
 .slider .container .feat .div-text .div-title h3{
     margin: 0 20px;
@@ -459,6 +460,8 @@ a{
 .slider .container .feat .div-text .div-title span{
     font-size: 12px;
     color: #ddd;
+    position: absolute;
+    right: -50px;
 }
 .slider .container .feat .div-text .div-title .btn{
     background: var(--main-color-2);
