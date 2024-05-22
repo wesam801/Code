@@ -229,7 +229,7 @@
                 clickable: true,
             },
             breakpoints: {
-                640: {
+                100: {
                 slidesPerView: 2,
                 spaceBetween: 20,
                 },
@@ -239,8 +239,30 @@
                 }
             },
             });
-            // Get the button:
-            let mybutton = document.getElementById("myBtn");
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper-2", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                100: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                },
+                1040: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                }
+            },
+            });
+      </script>
+      <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
             window.onscroll = function() {scrollFunction()};
 
             function scrollFunction() {
@@ -254,26 +276,6 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             };
-      </script>
-      <script>
-        var swiper = new Swiper(".mySwiper-2", {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-                },
-                1040: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                }
-            },
-            });
       </script>
 </body>
 </html>
