@@ -1,0 +1,8 @@
+/* font-family: "Cairo", sans-serif; */
+/* @import url(./template.css); */
+@import url(../vendor/bootstrap/css/bootstrap.min.css);
+@import url(../vendor/bootstrap-icons/bootstrap-icons.css);
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import url(./variables.css);
+@import url(./section.css);
+@import url(./baisc.css);

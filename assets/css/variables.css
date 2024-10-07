@@ -1,0 +1,44 @@
+:root {
+  --font-family-main: "Cairo", sans-serif;
+}
+:root {
+  --background-color: #ffffff;
+  --default-color: #444444;
+  --heading-color: #1b9cfc;
+  --accent-color: #34495e;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+}
+
+:root {
+  --nav-color: #1b9cfc;
+  --nav-hover-color: #34495e;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #212529;
+  --nav-dropdown-hover-color: #34495e;
+}
+
+.light-background {
+  --background-color: #f9f9f9;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #060606;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #252525;
+  --contrast-color: #ffffff;
+}
+.dark-mode {
+  --background-color: #060606;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #252525;
+  --contrast-color: #ffffff;
+  .hero {
+    background: none !important;
+    background-color: var(--surface-color) !important;
+  }
+}
